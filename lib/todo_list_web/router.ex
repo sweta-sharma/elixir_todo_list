@@ -23,7 +23,7 @@ defmodule TodoListWeb.Router do
   scope "/api" do
     pipe_through :api
 
-    get "/", Absinthe.Plug.GraphiQl, schema: TodoListWeb.Api.Schema, interface: :playground
+    get "/", Absinthe.Plug.GraphiQL, schema: TodoListWeb.Api.Schema, interface: :playground
     post "/", Absinthe.Plug, schema: TodoListWeb.Api.Schema
   end
 

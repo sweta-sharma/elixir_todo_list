@@ -7,6 +7,7 @@
               {description,"todo_list"},
               {modules,['Elixir.TodoList','Elixir.TodoList.Application',
                         'Elixir.TodoList.DataCase','Elixir.TodoList.Repo',
+                        'Elixir.TodoList.Todos','Elixir.TodoList.Todos.Item',
                         'Elixir.TodoListWeb','Elixir.TodoListWeb.Api.Schema',
                         'Elixir.TodoListWeb.Api.Schema.Compiled',
                         'Elixir.TodoListWeb.ChannelCase',
